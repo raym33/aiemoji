@@ -12,6 +12,75 @@ A real-time conversational AI with an ASCII talking face rendered in WebGL. Talk
 - **Procedural ambient music** — Synthesized drone and arpeggio background music
 - **Video recording** — Record your conversation session as a video file
 
+## Face Modes
+
+Three unique ASCII face designs, each with animated mouth states (closed, open, wide) synced to speech:
+
+### Masculine (amber/green tones)
+
+```text
+          ██████████████
+      ████░░░░░░░░░░░░████
+    ██░░░░░░░░░░░░░░░░░░░░██
+   █░░░░░░░░░░░░░░░░░░░░░░░█
+  █░░░░░░░░░░░░░░░░░░░░░░░░░█
+ █░░░░░██░░░░░░░░░░░██░░░░░░░█
+ █░░░░████░░░░░░░░░████░░░░░░█
+ █░░░░████░░░░░░░░░████░░░░░░█
+ █░░░░░██░░░░░░░░░░░██░░░░░░░█
+  █░░░░░░░░░░██░░░░░░░░░░░░░█
+  █░░░░░░░░░░░░░░░░░░░░░░░░░█
+   █░░░░░░░┌──────┐░░░░░░░░█
+   █░░░░░░░│      │░░░░░░░░█
+    ██░░░░░└──────┘░░░░░░██
+      ████░░░░░░░░░░░████
+          ██████████████
+```
+
+### Feminine (pink/magenta tones, eyelashes + curved lips)
+
+```text
+          ██████████████
+      ████░░░░░░░░░░░░████
+    ██░░░░░░░░░░░░░░░░░░░░██
+   █░░░░░░░░░░░░░░░░░░░░░░░█
+  █░░░░░░░░░░░░░░░░░░░░░░░░░█
+ █░░░╲██╱░░░░░░░░░╲██╱░░░░░░█
+ █░░░████░░░░░░░░░████░░░░░░█
+ █░░░████░░░░░░░░░████░░░░░░█
+ █░░░░╲╱░░░░░░░░░░░╲╱░░░░░░░█
+  █░░░░░░░░░░░▽░░░░░░░░░░░░█
+  █░░░░░░░░░░░░░░░░░░░░░░░░░█
+   █░░░░░░░╭──────╮░░░░░░░█
+   █░░░░░░░│      │░░░░░░░░█
+    ██░░░░░╰──────╯░░░░░░██
+      ████░░░░░░░░░░░████
+          ██████████████
+```
+
+### Robotic (cyan/blue tones, angular circuit frame)
+
+```text
+     ┌──────────────────────┐
+     │▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓│
+     │▓░░░░░░░░░░░░░░░░░░▓│
+     │▓░░░░░░░░░░░░░░░░░░▓│
+     │▓░░┌──┐░░░░░┌──┐░░░▓│
+     │▓░░│◈◈│░░░░░│◈◈│░░░▓│
+     │▓░░│◈◈│░░░░░│◈◈│░░░▓│
+     │▓░░└──┘░░░░░└──┘░░░▓│
+     │▓░░░░░░░░░░░░░░░░░░▓│
+     │▓░░░░░░░░▲░░░░░░░░░▓│
+     │▓░░░░░░░░░░░░░░░░░░▓│
+     │▓░░░┌──────────┐░░░▓│
+     │▓░░░│░░░░░░░░░░│░░░▓│
+     │▓░░░└──────────┘░░░▓│
+     └──────────────────────┘
+          ╠══╣    ╠══╣
+```
+
+Each face animates between 3 mouth states while speaking, with Matrix-style glitch effects on the characters.
+
 ## Tech Stack
 
 - **Frontend**: React + Vite, React Three Fiber (WebGL), Zustand, Web Audio API
