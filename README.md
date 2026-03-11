@@ -12,6 +12,17 @@ A real-time conversational AI with an ASCII talking face rendered in WebGL. Talk
 - **Procedural ambient music** — Synthesized drone and arpeggio background music
 - **Video recording** — Record your conversation session as a video file
 
+## Screenshots
+
+### Masculine (amber/green)
+![Masculine face mode](screenshots/masculine.png)
+
+### Feminine (pink/magenta)
+![Feminine face mode](screenshots/feminine.png)
+
+### Robotic (cyan/blue)
+![Robotic face mode](screenshots/robotic.png)
+
 ## Face Modes
 
 Three unique ASCII face designs, each with animated mouth states (closed, open, wide) synced to speech:
