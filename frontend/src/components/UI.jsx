@@ -182,7 +182,7 @@ export default function UI() {
     <div style={styles.overlay}>
       {/* Top bar */}
       <div style={styles.topBar}>
-        <span style={styles.title}>LLM_BRAIN.exe</span>
+        <span style={styles.title}>AI Talking Face</span>
         <span style={styles.status}>[{statusText}]</span>
         {isActive && <span style={styles.msgCount}>{messages.length} msgs</span>}
       </div>

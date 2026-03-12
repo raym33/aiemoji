@@ -1,5 +1,5 @@
 """
-LLM_BRAIN.exe - Conversational AI Face Backend
+AI Talking Face - Conversational AI Face Backend
 Live conversation with an ASCII face powered by LM Studio + Edge TTS.
 """
 

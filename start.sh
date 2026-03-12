@@ -1,8 +1,8 @@
 #!/bin/bash
-# LLM_BRAIN.exe - YouTube Poop Generator
+# AI Talking Face
 # Start both backend and frontend
 
-echo "🧠 Starting LLM_BRAIN.exe..."
+echo "🧠 Starting AI Talking Face..."
 echo ""
 echo "Prerequisites:"
 echo "  - LM Studio running on localhost:1234 (optional - fallback script available)"
@@ -26,7 +26,7 @@ FRONTEND_PID=$!
 cd ..
 
 echo ""
-echo "✅ LLM_BRAIN.exe is running!"
+echo "✅ AI Talking Face is running!"
 echo "   Frontend: http://localhost:5173"
 echo "   Backend:  http://localhost:8420"
 echo ""
